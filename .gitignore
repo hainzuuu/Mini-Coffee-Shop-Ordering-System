@@ -1,0 +1,46 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+
+# Build results
+bin/
+obj/
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+!packages/repositories.config
+
+# Code coverage and test results
+TestResults/
+Coverage/
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.log
+
+# Auto-generated files
+*.Designer.cs
+GeneratedFiles/
+
+# Logs, database, and temp files
+*.log
+*.tlog
+*.cache
+*.bak
+*.db
+
+# Ignore compiled DLLs and executables
+*.dll
+*.exe
+*.pdb
+
+# Ignore receipts (if saved as text or logs)
+receipt_logs/
+*.receipt
