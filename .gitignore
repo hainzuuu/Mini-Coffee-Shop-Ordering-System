@@ -44,3 +44,10 @@ GeneratedFiles/
 # Ignore receipts (if saved as text or logs)
 receipt_logs/
 *.receipt
+
+# Ignore build output
+bin/
+obj/
+bin/Debug/
+bin/Release/
+bin/Debug/net6.0-windows/
